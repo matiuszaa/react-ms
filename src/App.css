@@ -1,0 +1,16 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--third-purple-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--fourth-purple-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--fourth-purple-color);
+}

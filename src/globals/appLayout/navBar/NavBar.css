@@ -1,0 +1,42 @@
+.navbar-background {
+  background-color: var(--dark-purple-color);
+  padding: 0;
+  margin: 0;
+  width: 100dvw;
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+.ref-tile {
+  transition: color 0.4s;
+}
+
+.ref-tile:hover {
+  color: var(--secondary-color);
+}
+
+.title-tile {
+  margin-left: 0;
+  width: 100%;
+  font-size: 4.75dvh;
+  text-align: left;
+  background-color: var(--main-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+a.title-text {
+  margin-left: 1dvw;
+  color: var(--secondary-color);
+  transition: color 0.4s;
+}
+a.title-text:hover {
+  color: var(--light-purple-color);
+  text-decoration: none;
+}
+
+.navbar-table {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
